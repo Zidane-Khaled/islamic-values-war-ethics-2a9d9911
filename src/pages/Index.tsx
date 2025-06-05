@@ -72,7 +72,7 @@ export default function Index() {
                 استكشف المكتبة الرقمية
                 <ArrowLeft className="mr-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-islamic-green">
+              <Button size="lg" className="bg-islamic-brown hover:bg-islamic-brown/80 text-white border-0">
                 عن المركز
               </Button>
             </div>
@@ -181,7 +181,7 @@ export default function Index() {
             <Button size="lg" className="bg-islamic-gold hover:bg-islamic-darkGold text-islamic-green font-semibold">
               إنشاء حساب جديد
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-islamic-green">
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white border-0">
               تصفح كضيف
             </Button>
           </div>
