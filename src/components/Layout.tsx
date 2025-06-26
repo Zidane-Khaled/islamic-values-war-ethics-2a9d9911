@@ -149,8 +149,8 @@ export default function Layout({ children }: LayoutProps) {
               <h4 className="text-md font-semibold mb-4">معلومات التواصل</h4>
               <div className="space-y-2 text-sm text-gray-300">
                 <p>البريد الإلكتروني: info@ivewc.org</p>
-                <p>الهاتف: +00 000 000 0000</p>
-                <p>العنوان: [عنوان المركز]</p>
+                <p>الهاتف: +213 27 000 0000</p>
+                <p>العنوان: مدينة الشلف، الجزائر</p>
               </div>
             </div>
           </div>

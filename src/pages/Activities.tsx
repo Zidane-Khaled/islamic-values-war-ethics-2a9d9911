@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -11,7 +10,7 @@ const upcomingEvents = [
     description: 'مؤتمر أكاديمي دولي يجمع نخبة من الباحثين والأكاديميين لمناقشة أحدث الدراسات في مجال أخلاقيات الحرب الإسلامية',
     date: '2024-03-15',
     endDate: '2024-03-17',
-    location: 'جامعة الأزهر - القاهرة',
+    location: 'جامعة حسيبة بن بوعلي - الشلف',
     type: 'مؤتمر',
     attendees: 200,
     status: 'مفتوح للتسجيل',
@@ -23,7 +22,7 @@ const upcomingEvents = [
     description: 'ندوة علمية تقارن بين مفاهيم الحرب العادلة في الشريعة الإسلامية والقانون الدولي المعاصر',
     date: '2024-02-28',
     endDate: '2024-02-28',
-    location: 'مركز الملك فيصل للبحوث والدراسات الإسلامية',
+    location: 'المركز الثقافي الإسلامي - الشلف',
     type: 'ندوة',
     attendees: 80,
     status: 'مفتوح للتسجيل',

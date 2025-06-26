@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -17,13 +16,13 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'الهاتف',
-    details: ['+966 11 234 5678', '+966 11 234 5679'],
+    details: ['+213 27 234 5678', '+213 27 234 5679'],
     description: 'متاح خلال ساعات العمل الرسمية'
   },
   {
     icon: MapPin,
     title: 'العنوان',
-    details: ['شارع الملك فهد، الرياض', 'المملكة العربية السعودية، 12345'],
+    details: ['شارع الأمير عبد القادر، الشلف', 'الجزائر، 02000'],
     description: 'مقر المركز الرئيسي'
   },
   {
@@ -139,7 +138,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <Label htmlFor="phone">رقم الهاتف</Label>
-                      <Input id="phone" placeholder="+966 50 123 4567" />
+                      <Input id="phone" placeholder="+213 55 123 4567" />
                     </div>
                   </div>
 
@@ -203,7 +202,7 @@ export default function Contact() {
               موقعنا
             </h2>
             <p className="text-lg text-gray-600">
-              زوروا مقر المركز الرئيسي في قلب الرياض
+              زوروا مقر المركز الرئيسي في مدينة الشلف
             </p>
           </div>
           <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
